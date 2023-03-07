@@ -18,6 +18,16 @@ Notes:在每次搜索后如果要进行下一次搜索，请点击一下刷新�
 3.fuzzywuzzy
 
 
+## The steps of running this project
+1.数据放在压缩包里,有未处理的图书数据和处理好的图书数据
+
+2.首先进行数据处理得到处理好的干净、有效数据（相关内容见datahandler.py)
+
+3.其次运行GUI and Search.py,就能生成图书搜索引擎
+
+4.在引擎中进行的搜索会保存在历史记录文件history.txt中
+
+
 ## The method of application
 1.不需要用到模糊匹配和优化匹配时，直接在搜索关键字后面的框输入搜索内容再点击搜索即可。
 
